@@ -1,0 +1,195 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Indie+Flower|Quicksand|Reenie+Beanie|Rock+Salt|Shadows+Into+Light';
+body{
+	position: relative;
+}
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#header .navbar {
+	background: transparent ;
+	border: none;
+	
+}
+#header .navbar ul li a{
+	font-family: "Amatic SC", cursive;
+	font-size: 30px;
+	color: #F3BA29;
+	font-weight: bold;
+}
+#header .navbar ul li:hover{
+	border-bottom: 15px solid #F3BA29;
+	color: black;
+	border-radius: 60px;
+}
+ .active{
+	border-bottom: 15px solid #F3BA29;
+	color: black;
+	border-radius: 60px;
+	background: none;
+}
+#header .navbar-inverse .navbar-nav .active  a{
+	background: none;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+#entire{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#menuja{
+	margin-right: 50px;
+}
+#logomy{
+	width: 114px;
+	margin-left: 50px;
+}
+.page{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#homepage{
+	background-image: url("../imgs/home.gif");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#homepage #gif{
+	/*width: 100%;
+	height :100%;*/
+}
+#aboutme{
+	
+	/*padding-top: 167px;*/
+	background-color: #333;
+	background-repeat: repeat;
+	color: #fff;
+	font-family: "Shadows Into Light",cursive;
+	font-size: 18px;
+}
+#aboutme #aboutme-container{
+	margin-top: 20px;
+	margin-bottom: 55px;
+}
+#aboutme #aboutme-title h3{
+ 	text-align: center;
+ 	font-size: 35px;
+}
+
+#img{
+	height: 481px; width: 481px; 
+	/*padding-right: 15px; 
+	margin-right: 114px; 
+	margin-left: 43px;*/
+	/*width: 417px; margin-left: 86px;*/
+}
+#txt{
+	
+}
+#blog{
+	background-color: #0A0B0B;
+}
+
+#blog-container{
+	margin-top: 20px;
+}
+#blog  h3{
+	font-family: "Amatic SC", cursive;
+	font-size: 35px;	
+	text-align: center;
+	color: #FFE766;
+}
+#blog #blog-post  h4{
+	font-family: "Amatic SC", cursive;
+	font-size: 33px;	
+	color: #FFE766;
+}
+#blog #blog-post{
+	font-family: "Amatic SC", cursive;
+	font-size: 30px;
+	color: #FFE766;
+ 	margin-bottom: 15px;
+}
+
+#blog #blog-post #date{
+	font-family: "Amatic SC", cursive;
+	font-size: 19px;
+	color: #FFE766;
+ 	float:	left;
+}
+
+#blog #blog-post #author{
+	font-family: "Amatic SC", cursive;
+	font-size: 19px;
+	color: #FFE766;
+ 	float:	right;
+}
+#footer{
+	background-color: #404040;
+	font-family: "Amatic SC", cursive;
+	font-size: 25px;
+	color: #FFE766;
+
+}
+
+#footer #left{
+	float: left;
+}
+
+#footer #right{
+	float: right;
+}
+
+#footer #right .fb{
+	border-radius:160px;
+	font-size: 40px;
+	color:#000;
+	font-weight: bold;
+	text-align: center;
+	padding-right: 10px;
+	padding-left:  10px;
+}
+
+#footer #right .fb {
+	font-family: 'Mono Social Icons Font';
+	font-size: 40px;
+	color:#3b5998;
+}
+#footer #right .fb:hover{
+	color:#fff;
+	text-decoration: none;
+
+}
+
+#footer #right .tw {
+	font-family: 'Mono Social Icons Font';
+	font-size: 40px;
+	color: #4099FF;
+}
+
+#footer #right .tw:hover{
+	color:#fff;
+	text-decoration: none;
+
+}
+
+#footer #right .li {
+	font-family: 'Mono Social Icons Font';
+	font-size: 40px;
+	color: #0077B5;
+}
+#footer #right .li:hover{
+	font-family: 'Mono Social Icons Font';
+	font-size: 40px;
+	color: #fff;
+	text-decoration: none;
+}
+
